@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(0.25turn, #bbbbbb, rgba(188, 188, 188, 0.7764705882), #6f6f6f);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.posts .container .product_wrapper .product_title {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 64px;
+}
+.posts .container .product_wrapper .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+.posts .container .product_wrapper .cards .product_card {
+  margin: 0 auto;
+  width: 60%;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.489);
+  padding: 30px;
+  display: grid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+.posts .container .product_wrapper .cards .product_card h1 {
+  font-family: sans-serif;
+  font-size: 22px;
+}
+.posts .container .product_wrapper .cards .product_card p {
+  font-family: sans-serif;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.posts .container .product_wrapper .cards .product_card button {
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-top: 10px;
+  width: 180px;
+}
+.posts .container .product_wrapper .cards .product_card button a {
+  color: #000000;
+}/*# sourceMappingURL=posts.css.map */
