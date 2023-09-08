@@ -15,7 +15,7 @@ async function showUsers() {
           <div class="inf">Phone: <a href='${user.phone}' type="tel">${user.phone}</a></div>
   
           <div class="buttons">
-              <button><a href="./pages/posts.html">Posts</a></button>
+              <button><a href="./page/posts.html">Posts</a></button>
               <button><a href="#">Todos</a></button>
               <button><a href="#">Album</a></button>
           </div>
